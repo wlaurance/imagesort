@@ -2,12 +2,14 @@
   "author": "Will S. Laurance <w.laurance@gmail.com> (wlaurance.com)",
   "name": "imagesort",
   "description": "image mover for android titanium projects",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/wlaurance/imagesort.git"
   },
-  "bin": "./bin/imagesort",
+  "bin": {
+    "imagesort": "./bin/imagesort"
+  },
   "main": "./lib/imagesort.js",
   "dependencies": {
     "imageinfo": "1.0.4",
